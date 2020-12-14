@@ -17,6 +17,7 @@ window.addEventListener('mousemove', (event) => {
     mouse.y = event.y + canvas.clientTop/2;
 });
 
+//creates particle version of image
 function drawImage() {
     let imageWidth = image1.width;
     let imageHeight = image1.height;
